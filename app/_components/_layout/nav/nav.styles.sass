@@ -1,0 +1,72 @@
+.nav
+  background-color: white
+  position: fixed
+  width: 100%
+  top: 0
+  left: 0
+  .nav__wrapper
+    padding: 10px 40px
+    display: flex
+    align-items: center
+    justify-content: space-between
+  .nav__menu
+    display: flex
+  .nav__main
+    align-items: center
+    display: flex
+  .nav__menu-item
+    cursor: pointer
+    text-transform: uppercase
+    font-weight: 700
+    padding: 0 30px
+    transition: 0.3s color
+    &:hover
+      color: #fad52a
+    &--first
+      padding-left: 0
+    &--last
+      padding-right: 0
+  .nav__image
+    object-fit: cover
+    border-radius: 50px
+  .nav__title
+    text-transform: uppercase
+    font-weight: 700
+    margin-left: 20px
+
+@media (max-width: 991px)
+  .nav
+    .nav__wrapper
+      padding: 10px 20px
+    .nav__title
+      font-size: 15px
+      margin-left: 10px
+    .nav__menu-item
+      font-size: 13px
+      padding: 0 15px
+      &--first
+        padding-left: 0
+      &--last
+        padding-right: 0
+
+@media (max-width: 768px)
+  .nav
+    .nav__menu
+      opacity: 0
+      transition: 0.3s opacity
+      position: absolute
+      left: 0
+      bottom: 0
+      background-color: white
+      flex-direction: column
+      width: 100%
+      transform: translateY(100%)
+      box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .1)
+      -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .1)
+      -moz-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .1)
+    .nav__menu--active
+      opacity: 1
+    .nav__menu-item
+      padding: 20px
+      border-top: 1px solid #eee
+      text-align: end
