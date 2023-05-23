@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import me from '@/public/images/me.jpeg'
-import useNav from '@/app/_components/_layout/nav/nav.hook'
-import Hamburger from '@/app/_components/_layout/nav/hamburger/hamburger'
+import me from 'public/images/me.jpeg'
+import useNav from 'app/_components/_layout/nav/nav.hook'
+import Hamburger from 'app/_components/_layout/nav/hamburger/hamburger'
 
 const Nav = () => {
     const {height, active, setActive, onHamburer, device} = useNav()
@@ -10,14 +10,15 @@ const Nav = () => {
         <nav className={'nav'}>
             <div className="nav__wrapper">
                 <div className={'nav__main'}>
-                    <Image
-                        className={'nav__image'}
-                        alt={'nav image'}
-                        src={me.src}
-                        width={height}
-                        height={height}
-                        quality={100}
-                    />
+                    <div className={'nav__image-wrapper'}>
+                        <Image
+                            className={'nav__image'}
+                            alt={'nav image'}
+                            src={me.src}
+                            sizes={'(max-width: 991px) 40px, 50px'}
+                            fill={true}
+                        />
+                    </div>
                     <div className={'nav__title'}>
                         danyl tarasenko
                     </div>
@@ -36,9 +37,7 @@ const Nav = () => {
                         contact
                     </div>
                 </div>
-                {(device === 'small' || device === 'tiny') && (
-                    <Hamburger active={active} onClick={onHamburer}/>
-                )}
+                <Hamburger active={active} onClick={onHamburer}/>
             </div>
         </nav>
     )

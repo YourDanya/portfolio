@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdd8f095-6cbe-4bd9-b3ec-1a70e91534ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/_common/hooks/resize/resize.hook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_common/hooks/throttle/throttle.hook.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_components/main/main.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_components/main/main.styles.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/about-bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/components/button/button.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/button/button.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/components/button/button.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/button/button.hook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.hook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/components/spinner/spinner.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/spinner/spinner.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/hooks/responsive/responsive.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/hooks/responsive/responsive.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/styles/global.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/styles/global.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/footer/footer.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/footer/footer.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/layout.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/layout.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/nav.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/nav.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/nav.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/nav.hook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/nav.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/nav.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/about/about.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/about/about.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/about/about.content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/about/about.content.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/about/about.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/about/about.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.hook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/education/education.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/education/education.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/experience/experience.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/experience/experience.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/experience/experience.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/experience/experience.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q9K9W5VM2suanGGqxt3MbfGztV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "A:/projects/danyl/public/svg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "A:\\projects\\danyl\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\projects\danyl\public\svg" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdd8f095-6cbe-4bd9-b3ec-1a70e91534ab" name="Changes" comment="" />
+      <created>1684760213879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684760213879</updated>
+      <workItem from="1684760224578" duration="427000" />
+      <workItem from="1684760674894" duration="11795000" />
+      <workItem from="1684784201255" duration="7917000" />
+      <workItem from="1684820739229" duration="31059000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

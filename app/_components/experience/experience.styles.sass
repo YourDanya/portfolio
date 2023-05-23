@@ -1,0 +1,109 @@
+.experience
+  padding: 50px 0
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  .experience__title
+    font-weight: 700
+    text-align: center
+    font-size: 25px
+
+  .experience__job
+    display: grid
+    grid-template-columns: auto auto auto
+    margin-top: 50px
+
+  .experience__job-time
+    color: #898292
+    width: 250px
+    text-align: end
+    text-transform: uppercase
+
+  .experience__job-about
+    width: 500px
+
+  .experience__job-descr
+    line-height: 25px
+
+  .experience__separator
+    margin: 0 40px
+    width: 3px
+    background-color: #d1d5db
+    position: relative
+
+    &:before
+      height: 20px
+      content: ''
+      position: absolute
+      width: 100%
+      top: 0
+      left: 0
+      transform: translateY(-20px)
+      background-color: #d1d5db
+
+    &:after
+      background-color: white
+      content: ''
+      position: absolute
+      top: -2px
+      left: 50%
+      width: 16px
+      height: 16px
+      transform: translateX(-50%)
+      border: 2px solid #d1d5db
+      border-radius: 50px
+
+  .experience__job-title
+    font-size: 18px
+    font-weight: 700
+    margin-bottom: 40px
+
+@media (max-width: 991px)
+  .experience
+    .experience__job-title
+      font-size: 16px
+      margin-bottom: 30px
+
+    .experience__job-time
+      width: 200px
+      font-size: 14px
+
+    .experience__job-about
+      width: 400px
+
+    .experience__job-descr
+      font-size: 14px
+
+    .experience__separator
+      margin: 0 30px
+
+@media (max-width: 768px)
+  .experience
+    .experience__job
+      position: relative
+      flex-direction: column
+      padding: 0 50px
+      grid-template-columns: auto auto
+    .experience__separator
+      margin: 0 20px 0 10px
+      grid-area: 2 / 1 / span 1 / span 1
+      &:before
+        height: 25px
+        transform: translateY(-25px)
+    .experience__job-time
+      text-align: start
+      grid-area: 1 / 2 / span 1 / span 1
+      margin-bottom: 10px
+      width: auto
+    .experience__job-about
+      grid-area: 2 / 2 / span 1 / span 1
+      width: auto
+    .experience__job-title
+      margin-bottom: 20px
+
+@media (max-width: 576px)
+  .experience
+    .experience__job
+      padding: 0 10px
+    .experience__separator

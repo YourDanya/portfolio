@@ -1,6 +1,6 @@
-import useContact from '@/app/_components/contact/contact.hook'
-import Input from '@/app/_common/components/input/input.component'
-import Button from '@/app/_common/components/button/button.component'
+import Button from 'app/_common/components/button/button.component'
+import useContact from 'app/_components/contact/contact.hook'
+import Input from 'app/_common/components/input/input.component'
 
 const Contact = () => {
     const {values, onChange, onSubmit} = useContact()

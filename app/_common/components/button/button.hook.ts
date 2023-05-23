@@ -1,5 +1,5 @@
 import {MouseEvent} from 'react'
-import {ButtonProps} from '@/app/_common/components/button/button.types'
+import {ButtonProps} from 'app/_common/components/button/button.types'
 
 const useButton = (props: ButtonProps) => {
     const onClick = (event: MouseEvent<HTMLElement>) => {

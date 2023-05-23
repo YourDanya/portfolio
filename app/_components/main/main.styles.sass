@@ -1,0 +1,58 @@
+.main
+  padding: 300px 48px
+  position: relative
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)), url("/svg/about-bg.svg")
+  display: flex
+  flex-direction: column
+  align-items: center
+  .main__background
+    opacity: 0
+    position: absolute
+  .main__title
+    text-transform: uppercase
+    font-size: 55px
+    font-weight: 800
+    text-align: center
+  .main__descr
+    width: 650px
+    word-break: break-word
+    font-size: 20px
+    margin-top: 50px
+    text-align: center
+    line-height: 30px
+  .main__button-wrapper
+    display: flex
+    justify-content: center
+  .main__button
+    margin-top: 30px
+    border-radius: 5px
+    background-color: #facf0f
+    text-transform: uppercase
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15)
+    width: 250px
+    height: 57px
+    font-size: 16px
+    font-weight: 700
+
+@media (max-width: 991px)
+  .main
+    padding: 200px 48px
+    .main__title
+      line-height: 40px
+      font-size: 45px
+    .main__descr
+      font-size: 18px
+
+@media (max-width: 768px)
+  .main
+    .main__descr
+      width: auto
+      font-size: 16px
+    .main__button
+      margin-top: 30px
+
+@media (max-width: 576px)
+  .main
+    padding: 200px 10px
+    .main__title
+      font-size: 34px

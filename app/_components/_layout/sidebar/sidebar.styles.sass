@@ -1,0 +1,19 @@
+.sidebar
+  display: flex
+  flex-direction: column
+  background-color: #ffffff
+  align-items: space-between
+  position: fixed
+  top: 50%
+  transform: translateY(-50%)
+  box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0
+  z-index: 10
+
+  .sidebar__icon
+    width: 30px
+    height: 30px
+    margin: 8px
+
+@media (max-width: 576px)
+  .sidebar
+    display: none

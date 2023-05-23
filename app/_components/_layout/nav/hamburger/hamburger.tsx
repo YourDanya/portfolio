@@ -1,4 +1,4 @@
-import {HamburgerProps} from '@/app/_components/_layout/nav/hamburger/hamburger.types'
+import {HamburgerProps} from 'app/_components/_layout/nav/hamburger/hamburger.types'
 
 const Hamburger = (props: HamburgerProps) => {
     const {active, onClick} = props

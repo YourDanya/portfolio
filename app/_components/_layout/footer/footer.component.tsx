@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import Github from '@/app/_common/svg/github.component'
-import Instagram from '@/app/_common/svg/instagram.component'
-import Phone from '@/app/_common/svg/phone.component'
-import Telegram from '@/app/_common/svg/telegram.component'
+import Github from 'app/_common/svg/github.component'
+import Instagram from 'app/_common/svg/instagram.component'
+import Phone from 'app/_common/svg/phone.component'
+import Telegram from 'app/_common/svg/telegram.component'
 
 const Footer = () => {
 

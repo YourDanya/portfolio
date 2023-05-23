@@ -1,0 +1,81 @@
+.about
+  background-color: #fafafa
+  .about__container
+    display: grid
+    padding: 55px 0
+    grid-template-columns: 1fr 1fr
+    grid-gap: 20px
+
+  .about__details-title
+    font-size: 20px
+    font-weight: 700
+    margin-bottom: 20px
+
+  .about__descr-par
+    line-height: 28px
+    margin-bottom: 10px
+    color: #666
+
+  .about__descr-bold
+    font-weight: 700
+    color: inherit
+    display: inline
+
+  .about__descr
+    display: flex
+    flex-direction: column
+
+  .about__skills
+
+  .about__skills-items
+    display: flex
+    flex-wrap: wrap
+    align-items: start
+
+  .about__skills-item
+    color: #666
+    padding: 10px 20px
+    font-weight: 600
+    background: rgba(153, 153, 153, .2)
+    margin: 0 10px 10px 0
+    border-radius: 5px
+
+  .about__skills-item--last
+    margin-bottom: 0
+
+  .about__contact
+    margin-top: 20px
+    text-transform: uppercase
+    font-weight: 700
+    border-radius: 5px
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15)
+    background: #facf0f
+    text-decoration: none
+    color: #111
+    width: 160px
+    height: 50px
+    display: flex
+    align-items: center
+    justify-content: center
+
+  .about__image-wrapper
+    position: relative
+
+@media (max-width: 991px)
+  .about
+    .about__container
+      grid-template-columns: 1fr
+      padding: 50px
+      max-width: unset
+    .about__descr
+      margin-bottom: 40px
+    .about__skills-item
+      font-size: 13px
+    .about__contact
+      font-size: 14px
+      width: 140px
+
+@media (max-width: 576px)
+  .about
+    .about__container
+      padding: 50px 10px

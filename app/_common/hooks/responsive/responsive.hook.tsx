@@ -1,13 +1,13 @@
 import {useEffect} from 'react'
 import {useState} from 'react'
 import {useRef} from 'react'
-import {Device} from '@/app/_common/hooks/responsive/responseive.types'
+import {Device} from 'app/_common/hooks/responsive/responseive.types'
 import {useLayoutEffect} from 'react'
 
 const useResponsive = () => {
     const [device, setDevice] = useState<Device>('large')
     const deviceRef = useRef<Device>('large')
-
+    
     const resize = () => {
         const width = window.innerWidth
         if (width > 991 && deviceRef.current !== 'large') {

@@ -1,5 +1,5 @@
-import {InputProps} from '@/app/_common/components/input/input.types'
-import {InputEvent} from '@/app/_common/components/input/input.types'
+import {InputProps} from 'app/_common/components/input/input.types'
+import {InputEvent} from 'app/_common/components/input/input.types'
 
 const useInput = (props: InputProps) => {
 

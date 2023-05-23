@@ -1,5 +1,5 @@
-import {InputProps} from '@/app/_common/components/input/input.types'
-import useInput from '@/app/_common/components/input/input.hook'
+import {InputProps} from 'app/_common/components/input/input.types'
+import useInput from 'app/_common/components/input/input.hook'
 
 const Input = (props: InputProps) => {
     const {name, error, placeholder, label, type, className, value} = props
