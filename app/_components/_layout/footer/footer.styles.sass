@@ -1,0 +1,62 @@
+.footer
+  padding: 50px
+  background-color: black
+  .footer__content
+    display: flex
+    justify-content: space-between
+    margin-bottom: 50px
+  .footer__title
+    color: white
+    font-size: 18px
+    font-weight: 700
+    text-transform: uppercase
+    margin-bottom: 20px
+  .footer__descr
+    font-size: 14px
+    width: 250px
+    color: #eee
+    line-height: 20px
+  .footer__socials-title
+    color: white
+    font-weight: 700
+    text-transform: uppercase
+    margin-bottom: 20px
+  .icon
+    width: 30px
+    height: 30px
+    margin: 0 8px
+    path
+      fill: white
+  .icon-github
+    margin-left: 0
+  .icon-telegram
+    margin-right: 0
+  .footer__copyright
+    color: white
+    font-size: 10px
+    text-align: center
+    padding-top: 50px
+    border-top: 1px solid #444
+
+
+@media (max-width: 991px)
+  .footer
+    .icon
+      width: 25px
+      height: 25px
+
+@media (max-width: 768px)
+  .footer
+    .footer__content
+      flex-direction: column
+    .footer__main
+      order: 2
+    .footer__socials
+      margin-bottom: 50px
+      order: 1
+    .footer__descr
+      font-size: 13px
+
+@media (max-width: 576px)
+  .footer
+    padding: 50px 20px

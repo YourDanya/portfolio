@@ -1,3 +1,5 @@
+import 'app/_common/components/spinner/spinner.styles.sass'
+import 'app/_common/components/input/input.styles.sass'
 import 'app/_common/components/button/button.styles.sass'
 import 'app/_common/styles/global.styles.sass'
 import 'app/_components/_layout/footer/footer.styles.sass'

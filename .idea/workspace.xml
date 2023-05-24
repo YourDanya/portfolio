@@ -2,40 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd8f095-6cbe-4bd9-b3ec-1a70e91534ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/_common/hooks/resize/resize.hook.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_common/hooks/throttle/throttle.hook.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_components/main/main.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_components/main/main.styles.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/about-bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/components/button/button.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/button/button.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/components/button/button.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/button/button.hook.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_common/components/input/input.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.hook.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_common/components/spinner/spinner.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/spinner/spinner.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/hooks/responsive/responsive.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/hooks/responsive/responsive.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/styles/global.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/styles/global.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/svg/github.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/svg/github.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/svg/instagram.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/svg/instagram.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/svg/phone.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/svg/phone.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/svg/telegram.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/svg/telegram.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/_layout/footer/footer.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/footer/footer.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/_layout/layout.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/layout.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.styles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/hamburger/hamburger.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/nav.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/nav.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/nav.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/nav.hook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/footer/footer.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/footer/footer.styles.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/nav.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/nav.styles.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/sidebar/sidebar.styles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/about/about.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/about/about.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/about/about.content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/about/about.content.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/about/about.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/about/about.styles.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.hook.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/education/education.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/education/education.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/experience/experience.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/experience/experience.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/experience/experience.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/experience/experience.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/main/main.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/main/main.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/main/main.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/main/main.styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/projects/projects.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/projects/projects.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/projects/projects.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/projects/projects.styles.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "A:/projects/danyl/public/svg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "ts.external.directory.path": "A:\\projects\\danyl\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/projects/danyl/public/svg&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;A:\\projects\\danyl\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="A:\projects\danyl\public\svg" />
@@ -84,7 +74,8 @@
       <workItem from="1684760224578" duration="427000" />
       <workItem from="1684760674894" duration="11795000" />
       <workItem from="1684784201255" duration="7917000" />
-      <workItem from="1684820739229" duration="31059000" />
+      <workItem from="1684820739229" duration="31312000" />
+      <workItem from="1684917434063" duration="21965000" />
     </task>
     <servers />
   </component>

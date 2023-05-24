@@ -9,34 +9,36 @@ const Footer = () => {
     return (
         <footer className={'footer'}>
             <div className={'footer__content'}>
-                <div className={'footer__title'}>
-                    DANYL TARASENKO
-                </div>
-                <div className={'footer__descr'}>
-                    A Full Stack Developer with 2 years experience in building the web apps.
+                <div className={'footer__main'}>
+                    <div className={'footer__title'}>
+                        DANYL TARASENKO
+                    </div>
+                    <div className={'footer__descr'}>
+                        A Full Stack Developer with 2 years experience in building the web apps.
+                    </div>
                 </div>
                 <div className={'footer__socials'}>
                     <div className={'footer__socials-title'}>
                         SOCIAL
                     </div>
                     <div className={'footer__socials-list'}>
-                        <Link href={'/'}>
-                            <Github/>
+                        <Link href={'/'} prefetch={false}>
+                            <Github className={''}/>
                         </Link>
-                        <Link href={'/'}>
+                        <Link href={'/'} prefetch={false}>
                             <Instagram/>
                         </Link>
-                        <Link href={'/'}>
+                        <Link href={'/'} prefetch={false}>
                             <Phone/>
                         </Link>
-                        <Link href={'/'}>
+                        <Link href={'/'} prefetch={false}>
                             <Telegram/>
                         </Link>
                     </div>
                 </div>
             </div>
             <div className={'footer__copyright'}>
-
+                @Copyright 2023. Made by Danyl Tarasenko
             </div>
         </footer>
     )

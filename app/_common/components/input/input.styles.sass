@@ -1,0 +1,31 @@
+.input
+  .input__placeholder-wrapper
+    position: relative
+    height: 100%
+  .input__placeholder
+    position: absolute
+    top: 50%
+    pointer-events: none
+    transform: translateY(-50%)
+    font-size: 16px
+  .input__field, .input__textarea
+    height: 100%
+    font-size: 16px
+    width: 100%
+    border: none
+    outline: none
+    background-color: transparent
+  .input__label
+    display: block
+  .input__textarea
+    resize: none
+  .input__state--textarea
+    .input__placeholder
+      top: 0
+      transform: unset
+  .input__state--focused
+    .input__placeholder
+      display: none
+  .input__state--filled
+    .input__placeholder
+      display: none

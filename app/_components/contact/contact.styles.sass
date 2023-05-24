@@ -1,2 +1,95 @@
 .contact
-  padding: 0 100px
+  padding: 100px 0
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('/svg/about-bg.svg')
+  display: flex
+  flex-direction: column
+  align-items: center
+  .contact__title
+    text-align: center
+    font-weight: 800
+    font-size: 30px
+    text-transform: uppercase
+  .contact__subtitle
+    margin-top: 30px
+    text-align: center
+    width: 650px
+    line-height: 30px
+  .contact__form
+    border-radius: 5px
+    margin-top: 60px
+    padding: 40px 30px
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0
+    background: #fff
+    width: 700px
+    display: flex
+    flex-direction: column
+  .contact__input
+    margin-bottom: 30px
+    .input__container
+      width: 100%
+      padding: 18px
+      background: #f0f0f0
+      border-radius: 5px
+    .input__placeholder
+      color: #a3a19b
+      font-size: 14px
+    .input__field
+      font-size: 14px
+    .input__label
+      font-size: 12px
+      color: #666
+      font-weight: 700
+      margin-bottom: 10px
+  .contact__textarea
+    margin-bottom: 0
+    .input__container
+      height: 200px
+    .input__textarea
+      font-size: 14px
+  .contact__button
+    margin-top: 40px
+    background: #facf0f
+    align-self: end
+    color: #111
+    width: 200px
+    height: 57px
+    font-size: 15px
+    text-transform: uppercase
+    border-radius: 5px
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15)
+    font-weight: 700
+  .contact__success, .contact__error
+    margin-top: 20px
+    font-size: 12px
+    font-weight: 700
+    align-self: end
+  .contact__error
+    color: red
+
+@media (max-width: 991px)
+  .contact
+    .contact__form
+      width: 650px
+    .contact__button
+      width: 150px
+      height: 50px
+      font-size: 14px
+
+@media (max-width: 768px)
+  .contact
+    padding: 100px 50px
+    .contact__form
+      width: 100%
+    .contact__subtitle
+      width: 100%
+
+@media (max-width: 576px)
+  .contact
+    padding: 100px 10px
+    .contact__button
+      width: 100%
+    .contact__form
+      padding: 30px 20px
+    .contact__subtitle
+      font-size: 14px
+      line-height: 25px

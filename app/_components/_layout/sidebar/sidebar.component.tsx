@@ -8,16 +8,16 @@ import Telegram from 'app/_common/svg/telegram.component'
 const Sidebar = () => {
     return (
         <div className={'sidebar'}>
-            <Link href={'/'}>
+            <Link href={'/'} prefetch={false}>
                 <Github/>
             </Link>
-            <Link href={'/'}>
+            <Link href={'/'} prefetch={false}>
                 <Instagram/>
             </Link>
-            <Link href={'/'}>
+            <Link href={'/'} prefetch={false}>
                 <Phone/>
             </Link>
-            <Link href={'/'}>
+            <Link href={'/'} prefetch={false}>
                 <Telegram/>
             </Link>
         </div>

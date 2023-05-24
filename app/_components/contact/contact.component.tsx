@@ -3,7 +3,7 @@ import useContact from 'app/_components/contact/contact.hook'
 import Input from 'app/_common/components/input/input.component'
 
 const Contact = () => {
-    const {values, onChange, onSubmit} = useContact()
+    const {values, onChange, onSubmit, success, error, loading} = useContact()
 
     return (
         <div className={'contact'}>
@@ -31,15 +31,27 @@ const Contact = () => {
                     onChange={onChange}
                 />
                 <Input
-                    className={'contact__input'}
+                    className={'contact__input contact__textarea'}
                     name={'message'}
                     value={values.message}
                     placeholder={'Enter your message'}
-                    label={'Enter your label'}
+                    label={'Message'}
                     type={'textarea'}
                     onChange={onChange}
                 />
-                <Button onClick={onSubmit}/>
+                <Button className={'contact__button'} onClick={onSubmit} loading={loading}>
+                    Submit
+                </Button>
+                {success && (
+                    <div className={'contact__success'}>
+                        {success}
+                    </div>
+                )}
+                {error && (
+                    <div className={'contact__error'}>
+                        {error}
+                    </div>
+                )}
             </form>
         </div>
     )
