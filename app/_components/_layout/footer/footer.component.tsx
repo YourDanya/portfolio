@@ -22,18 +22,10 @@ const Footer = () => {
                         SOCIAL
                     </div>
                     <div className={'footer__socials-list'}>
-                        <Link href={'/'} prefetch={false}>
-                            <Github className={''}/>
-                        </Link>
-                        <Link href={'/'} prefetch={false}>
-                            <Instagram/>
-                        </Link>
-                        <Link href={'/'} prefetch={false}>
-                            <Phone/>
-                        </Link>
-                        <Link href={'/'} prefetch={false}>
-                            <Telegram/>
-                        </Link>
+                        <Github/>
+                        <Instagram/>
+                        <Phone/>
+                        <Telegram/>
                     </div>
                 </div>
             </div>

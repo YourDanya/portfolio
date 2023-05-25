@@ -5,3 +5,75 @@
   align-items: center
   background-color: #fafafa
   .projects__title
+    text-transform: uppercase
+    font-size: 30px
+    font-weight: 700
+    margin-bottom: 100px
+  .projects__item
+    padding: 0 100px
+    width: 100%
+    display: grid
+    grid-template-columns: 3fr 2fr
+    grid-gap: 100px
+  .projects__item-img-wrapper
+    background-color: black
+    position: relative
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15)
+  .projects__item-about
+    padding: 50px 0
+  .projects__item-title
+    margin-bottom: 30px
+    font-weight: 700
+    font-size: 20px
+  .projects__item-descr
+    line-height: 25px
+    margin-bottom: 30px
+    color: #666
+  .projects__link
+
+
+@media (max-width: 1200px)
+  .projects
+    .projects__item
+      grid-gap: 80px
+      grid-template-columns: 2fr 1fr
+
+@media (max-width: 991px)
+  .projects
+    padding: 80px 0
+    .projects__title
+      margin-bottom: 80px
+    .projects__item
+      grid-template-columns: auto
+      grid-gap: 0
+    .projects__item-about
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin-top: 50px
+      padding: 0
+    .projects__link
+      width: 170px
+      height: 48px
+    .projects__item-descr
+      text-align: center
+
+@media (max-width: 768px)
+  .projects
+    .projects__item
+      padding: 0 50px
+
+@media (max-width: 576px)
+  .projects
+    .projects__title
+      margin-bottom: 50px
+    .projects__item
+      padding: 0 10px
+    .projects__item-title
+      font-size: 16px
+      margin-bottom: 20px
+    .projects__item-descr
+      margin-bottom: 20px
+      font-size: 13px
+    .projects__item-about
+      margin-top: 30px

@@ -6,13 +6,14 @@ import useResize from 'app/_common/hooks/resize/resize.hook'
 import {useState} from 'react'
 import {useRef} from 'react'
 import bg from 'app/_common/svg/about-bg.svg'
+import useAbout from 'app/_components/about/about.hook'
 
 const About = () => {
-    const elemRef = useRef<HTMLDivElement | null>(null)
+
     return (
-        <div className={'about'}>
+        <div className={'about'} id={'about'}>
             <div className={'container  about__container'}>
-                <div className={'about__descr'} ref={elemRef}>
+                <div className={'about__descr'}>
                     <div className={'about__details-title'}>
                         Get to know me!
                     </div>
@@ -43,9 +44,9 @@ const About = () => {
                             {' me.'}
                         </div>
                     </div>
-                    <Link href={'/'} className={'about__contact'}>
+                    <a href={'#contact'} className={'about__contact'}>
                         Contact
-                    </Link>
+                    </a>
                 </div>
                 <div className={'about__skills'}>
                     <div className={'about__details-title'}>

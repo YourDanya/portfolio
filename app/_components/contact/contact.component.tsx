@@ -6,7 +6,7 @@ const Contact = () => {
     const {values, onChange, onSubmit, success, error, loading} = useContact()
 
     return (
-        <div className={'contact'}>
+        <div className={'contact'} id={'contact'}>
             <div className={'contact__title'}>
                 Contact
             </div>

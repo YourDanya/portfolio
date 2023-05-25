@@ -4,7 +4,7 @@ import useNav from 'app/_components/_layout/nav/nav.hook'
 import Hamburger from 'app/_components/_layout/nav/hamburger/hamburger'
 
 const Nav = () => {
-    const {height, active, setActive, onHamburer, device} = useNav()
+    const {active, onHamburer} = useNav()
 
     return (
         <nav className={'nav'}>
@@ -24,18 +24,18 @@ const Nav = () => {
                     </div>
                 </div>
                 <div className={`nav__menu ${active ? 'nav__menu--active' : ''}`}>
-                    <div className={'nav__menu-item nav__menu-item--first'}>
+                    <a className={'nav__menu-item nav__menu-item--first'} href={'#about'}>
                         about
-                    </div>
-                    <div className={'nav__menu-item'}>
+                    </a>
+                    <a className={'nav__menu-item'} href={'#experience'}>
                         experience
-                    </div>
-                    <div className={'nav__menu-item'}>
+                    </a>
+                    <a className={'nav__menu-item'} href={'#projects'}>
                         projects
-                    </div>
-                    <div className={'nav__menu-item nav__menu-item--last'}>
+                    </a>
+                    <a className={'nav__menu-item nav__menu-item--last'} href={'#contact'}>
                         contact
-                    </div>
+                    </a>
                 </div>
                 <Hamburger active={active} onClick={onHamburer}/>
             </div>
