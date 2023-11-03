@@ -1,15 +1,6 @@
-import Link from 'next/link'
 import {skills} from 'app/_components/about/about.content'
-import about from 'app/_common/svg/about-bg.svg'
-import Button from 'app/_common/components/button/button.component'
-import useResize from 'app/_common/hooks/resize/resize.hook'
-import {useState} from 'react'
-import {useRef} from 'react'
-import bg from 'app/_common/svg/about-bg.svg'
-import useAbout from 'app/_components/about/about.hook'
 
 const About = () => {
-
     return (
         <div className={'about'} id={'about'}>
             <div className={'container  about__container'}>

@@ -1,13 +1,16 @@
 import {useState} from 'react'
 import {initValues} from 'app/_components/contact/contact.content'
-import {ChangeValue} from 'app/_common/components/input/input.types'
 import emailjs from '@emailjs/browser'
-import {useEffect} from 'react'
+import {FormEvent} from 'react'
+import {MouseEvent} from 'react'
+import {ChangeEvent} from 'react'
+import {inputChange} from 'app/_common/utils/input-change/input-change'
 
 const useContact = () => {
     const [values, setValues] = useState(initValues)
 
-    const onChange = ({value, name}: ChangeValue<typeof values>) => {
+    const onChange = (event: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>) => {
+        const {name, value} = inputChange<typeof values>(event)
         values[name] = value
         setValues({...values})
     }
@@ -16,7 +19,7 @@ const useContact = () => {
     const [error, setError] = useState('')
     const [success, setSuccess] = useState('')
 
-    const onSubmit = async(event) => {
+    const onSubmit = async(event: FormEvent<HTMLFormElement> | MouseEvent) => {
         event.preventDefault()
         setLoading(true)
         setSuccess('')

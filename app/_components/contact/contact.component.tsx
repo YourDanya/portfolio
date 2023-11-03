@@ -13,7 +13,7 @@ const Contact = () => {
             <div className={'contact__subtitle'}>
                 Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
             </div>
-            <form className={'contact__form'}>
+            <form className={'contact__form'} onSubmit={onSubmit}>
                 <Input
                     className={'contact__input'}
                     name={'name'}

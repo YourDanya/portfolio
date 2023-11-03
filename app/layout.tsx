@@ -22,12 +22,11 @@ export const metadata: Metadata = {
     description: 'Danyl',
     viewport: 'width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no'
 }
-
 const Layout = (props: LayoutProps) => {
-    const {children, params: {locale}} = props
+    const {children} = props
     
     return (
-        <RootLayout locale={locale}>
+        <RootLayout>
             {children}
         </RootLayout>
     )

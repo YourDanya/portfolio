@@ -1,19 +1,12 @@
+import {ChangeEvent} from 'react'
+
 export type InputProps = {
    name: string,
-   error: string,
-   placeholder: string,
-   label: string,
-   type?: string,
    className: string,
    value: string | number,
-   onChange: (params: {value: string | number, name: string}) => void
+   onChange?: (event: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>) => void
+   error?: string,
+   placeholder?: string,
+   label?: string,
+   type?: string,
 }
-
-
-export type InputEvent = {
-   target: {name: string, value: string}
-}
-
-export type ChangeValue<T extends InputValues> = {[key in keyof T] : {name: key, value: T[key]}} [keyof T]
-
-export type InputValues = Record<string, string | number>

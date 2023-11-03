@@ -1,12 +1,6 @@
 import unamour from 'public/images/projects-unamour.jpg'
-import Image from 'next/image'
-import useResize from 'app/_common/hooks/resize/resize.hook'
-import {useState} from 'react'
-import {useRef} from 'react'
-import useProjects from 'app/_components/projects/projects.hook'
 
 const Projects = () => {
-    const {height, elemRef} = useProjects()
 
     return (
         <div className={'projects'} id={'projects'}>
@@ -14,16 +8,11 @@ const Projects = () => {
                 Projects
             </div>
             <div className={'projects__item'}>
-                <div className={'projects__item-img-wrapper'} ref={elemRef}
-                     style={{height}}
-                >
-                    <Image
-                        className={'projects__item-img'}
-                        fill={true}
-                        src={unamour.src}
-                        alt={'project image'}
-                    />
-                </div>
+                <img
+                    className={'projects__item-img'}
+                    src={unamour.src}
+                    alt={'project image'}
+                />
                 <div className={'projects__item-about'}>
                     <div className={'projects__item-title'}>
                         UNAMOUR
@@ -31,7 +20,8 @@ const Projects = () => {
                     <div className={'projects__item-descr'}>
                         E-commerce clothing app that uses server side rendering provided by Next.js
                     </div>
-                    <a className={'default-btn projects__link'} href={'https://unamour.com.ua/'} target='_blank' rel='noreferrer'>
+                    <a className={'default-btn projects__link'} href={'https://unamour.com.ua/'} target='_blank'
+                       rel='noreferrer'>
                         open
                     </a>
                 </div>
