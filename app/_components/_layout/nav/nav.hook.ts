@@ -1,4 +1,3 @@
-import useResponsive from 'app/_common/hooks/responsive/responsive.hook'
 import {useState} from 'react'
 
 const useNav = () => {

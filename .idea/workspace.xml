@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdd8f095-6cbe-4bd9-b3ec-1a70e91534ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/_common/types/form/input-value.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_common/types/form/input-values.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_common/utils/input-change/input-change.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.hook.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.styles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/components/input/input.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/components/input/input.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/hooks/input/input.hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/types/form/change-value.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_common/hooks/input/input.types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/about/about.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/about/about.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.hook.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/contact/contact.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/contact/contact.styles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/projects/projects.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/projects/projects.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/hooks/resize/resize.hook.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/hooks/responsive/responseive.types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/hooks/responsive/responsive.hook.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/hooks/throttle/throttle.hook.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_common/types/form/change-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_common/types/form/change-value.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/_layout/nav/nav.hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/_layout/nav/nav.hook.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/projects/projects.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/projects/projects.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/projects/projects.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/projects/projects.styles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +82,8 @@
       <workItem from="1687867509671" duration="1222000" />
       <workItem from="1698923390195" duration="4770000" />
       <workItem from="1698928274055" duration="12443000" />
-      <workItem from="1699010069348" duration="2175000" />
+      <workItem from="1699010069348" duration="3700000" />
+      <workItem from="1699086353125" duration="2415000" />
     </task>
     <servers />
   </component>
@@ -111,5 +100,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/_common/hooks/throttle/throttle.hook.ts</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

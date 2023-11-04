@@ -1,1 +1,0 @@
-export type Device = 'large' | 'medium' | 'small' | 'tiny'
