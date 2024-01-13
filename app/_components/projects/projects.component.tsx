@@ -20,7 +20,7 @@ const Projects = () => {
                     <div className={'projects__item-descr'}>
                         E-commerce clothing app that uses server side rendering provided by Next.js
                     </div>
-                    <a className={'default-btn projects__link'} href={'https://unamour.com.ua/'} target='_blank'
+                    <a className={'default-btn projects__link'} href={'https://shop.dannydev.net/shop-items/all'} target='_blank'
                        rel='noreferrer'>
                         open
                     </a>
